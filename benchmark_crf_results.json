@@ -1,0 +1,27 @@
+{
+  "Teacher (12L, no CRF)": {
+    "params_M": 163.82,
+    "size_MB": 624.93,
+    "cpu_latency_ms": 54.14
+  },
+  "CRF Teacher (12L + CRF)": {
+    "params_M": 164.41,
+    "size_MB": 627.24,
+    "cpu_latency_ms": 44.7
+  },
+  "Student KD (4L, no CRF)": {
+    "params_M": 107.11,
+    "size_MB": 408.61,
+    "cpu_latency_ms": 20.25
+  },
+  "Student CRF-KD (4L)": {
+    "params_M": 107.11,
+    "size_MB": 408.61,
+    "cpu_latency_ms": 15.73
+  },
+  "Quantized CRF-KD Student (INT8)": {
+    "params_M": 78.76,
+    "size_MB": 327.62,
+    "cpu_latency_ms": 6.28
+  }
+}
